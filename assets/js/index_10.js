@@ -20,5 +20,5 @@ function replaceMinWithNegativeOne(numbers) {
 
 const numbersList = [4, 2, 1, 2, 3, 1, 4, 3];
 const result = replaceMinWithNegativeOne(numbersList);
-console.log(`Mutated Array ${result.numbers}`);
+console.log(`Mutated Array [${result.numbers}]`);
 console.log(`Occurrences of minimum value: ${result.occurrences}`);
